@@ -1,0 +1,15 @@
+
+Fonts:
+$main-font: Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+Colors:
+$blue-bg : #122433;
+$white: #ffffff;
+$text-links: #b4dbff;
+$btn-bg: #3867FF;
+$black: #000000; 
+$gray-text: #808080;
+$headings: #3867ff;
+$history-text: #000022;
+
+Optimized Images:
