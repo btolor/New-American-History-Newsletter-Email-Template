@@ -1,0 +1,473 @@
+// start of wrapper styles...
+.wrapper {
+    background-color: #E9E9E9;
+
+    // start of top-texture-contianer styles...
+    .top-texture {
+        .columns {
+            padding-top: 0 !important;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            padding-bottom: 0 !important;
+        }
+    }
+
+    // end of top-texture-contianer styles...
+
+    // start of top-content-container styles... 
+    .top-content {
+        background: $blue-bg;
+        background-color: $blue-bg;
+
+        // start of logo row
+        .logo {
+            .columns {
+                padding-top: 30px;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                padding-bottom: 28px;
+
+                img {
+                    width: 170px;
+                    padding-right: 40px;
+                }
+            }
+        }
+
+        // end of logo row
+
+        // start of intro row
+        .intro {
+            .columns {
+                padding-top: 10px;
+                padding-left: 40px;
+                padding-right: 0 !important;
+                padding-bottom: 10ox;
+
+                h1 {
+                    font-family: $main-font;
+                    color: $white;
+                    margin-bottom: 0;
+                    line-height: 1.2;
+                    font-weight: 600;
+                    font-size: 56px;
+                }
+            }
+        }
+
+        // end intro row 
+
+        // start of text row
+        .text {
+            .columns {
+                padding-top: 0 !important;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 10ox;
+
+                p {
+                    font-family: $main-font;
+                    color: $white;
+                    font-size: 18px;
+                    margin-bottom: 0;
+                    line-height: 1.5;
+                    padding-bottom: 30px;
+                }
+
+                .last-p {
+                    padding-bottom: 0;
+                }
+            }
+        }
+
+        // end of text row
+
+
+
+        // start of author row
+        .author {
+            .columns {
+                padding-left: 40px;
+                padding-right: 0 !important;
+                padding-top: 0 !important;
+                padding-bottom: 0 !important;
+
+                h2 {
+                    margin-bottom: 0;
+                    color: $white;
+                    font-family: $main-font;
+                    font-weight: 600;
+                    font-size: 28px;
+                }
+
+                p{
+                    font-family: $main-font;
+                    color: $white;
+                    font-size: 13px;
+                    font-style: italic;
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        // end of author row
+        // start of btn row
+        .btn {
+            .columns {
+                padding-top: 36px;
+                padding-left: 40px;
+                padding-right: 0 !important;
+                padding-bottom: 75px;
+                a{
+                    text-decoration: none;
+                    color: $white;
+                    background: $btn-bg;
+                    background-color: $btn-bg;
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: $main-font;
+                    padding-left: 16px;
+                    padding-bottom: 14px;
+                    padding-top: 14px;
+                    padding-right: 16px;
+                    border-radius: 60px;
+                }
+            }
+        }
+
+        // end of btn row 
+    }
+
+    // end of top-content-container styles... 
+
+    // start of featured-work-container styles...
+    .featured-work{
+        // start of logo row
+        .logo{
+            .columns{
+                padding-top: 50px;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                padding-bottom: 36 px;
+                img{
+                    width: 120px;
+                    padding-bottom: 40px;
+                }
+                h5{
+                    margin-bottom: 0;
+                    color: $dark-text;
+                    font-family: $main-font;
+                    font-weight: 400;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+        // end of logo row
+
+        // start of map row
+        .map{
+            .columns{
+                padding-top: 0 !important;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 0 !important;
+                img{
+                    margin: 0 auto;
+                }
+            }
+        }
+        // end of map row
+
+        // start of map-info row
+        .map-info{
+            .columns{
+                padding-top: 0 !important;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 0 !important;
+                h2{
+                    font-size: 32px;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                    color: $dark-text;
+                    font-family: $main-font;
+                    padding-top: 24px;
+                }
+                p{
+                    margin-bottom: 0;
+                    color: $dark-text;
+                    font-family: $main-font;
+                    font-size: 16px;
+                    padding-bottom: 8px;
+                }
+                .panorama{
+                    font-size: 13px;
+                    font-style: italic;
+                    color: $gray-text;
+                    padding-bottom: 30px;
+                }
+                a{
+                    text-decoration: none;
+                    color: $white;
+                    background: $btn-bg;
+                    background-color: $btn-bg;
+                    font-size: 16px;
+                    font-weight: 500;
+                    font-family: $main-font;
+                    padding-left: 16px;
+                    padding-bottom: 14px;
+                    padding-top: 14px;
+                    padding-right: 16px;
+                    border-radius: 60px;
+                }
+            }
+        }
+        // end of map-info row
+
+
+    }
+    // end of featured-work-container styles...
+
+    // start of history-container styles...
+    .history{
+        // start of logo row
+        .logo{
+            .columns{
+                padding-top: 50px;
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+                padding-bottom: 36px;
+                img{
+                    width: 120px;
+                    padding-bottom: 40px;
+                }
+                h5{
+                    margin-bottom: 0;
+                    color: $dark-text;
+                    font-family: $main-font;
+                    font-weight: 400;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+        // end of logo row
+
+        // start of story row
+        .story{
+            .link{
+                padding-top:0 !important;
+                padding-left: 40px;
+                padding-right: 0 !important;
+                padding-bottom: 0 !important;
+                a{
+                    color: $btn-bg;
+                    text-decoration: underline;
+                    font-weight: 600;
+                    font-size: 16px;
+                    font-family: $main-font;
+                }
+            }
+            .quote{
+                padding-top:0 !important;
+                padding-left: 20px;
+                padding-right: 40px;
+                padding-bottom: 40px;
+                p{
+                    color: $dark-text;
+                    font-size: 16px;
+                    margin-bottom: 0;
+                    padding-bottom: 6px;
+                    font-family: $main-font;
+                    line-height: 1.4;
+                }
+                @include small(596px){
+                    p{
+                        padding-top: 10px;
+                    }
+                }
+                span{
+                    font-size: 13px;
+                    color: $gray-text;
+                    font-family: $main-font;
+                    font-style: italic;
+                }
+            }
+        }
+        // end of story row
+    }
+    // end of history-container styles...
+
+    // start of overheard-container styles...
+    .overheard{
+        // start of logo row
+        .logo{
+            .columns{
+                padding-top: 30px;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 0 !important;
+                img{
+                    width: 120px;
+                    padding-bottom: 40px;
+                    margin: 0 auto;
+                }
+                h5{
+                    margin-bottom: 0;
+                    color: $dark-text;
+                    font-family: $main-font;
+                    font-weight: 400;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+        // end of logo row
+
+        // start of quote row
+        .quote{
+            .columns{
+                padding-top: 0 !important;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 60px;
+                h2{
+                    font-size: 32px;
+                    font-family: $main-font;
+                    color: $black;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                    padding-top: 36px;
+                    padding-bottom: 30px;
+                }
+                h6{
+                    font-size: 18px;
+                    font-family: $main-font;
+                    color: $black;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                    padding-bottom: 4px;
+                }
+                a{
+                    text-decoration: underline;
+                    color: $btn-bg;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                span{
+                    font-size: 13px;
+                    color: $gray-text;
+                    font-family: $main-font;
+                    font-style: italic;
+                    padding-top: 8px;
+                }
+            }
+        }
+        // end of quote row
+    }
+    // end of overheard-container styles...
+
+    // start of footer-container styles...
+    .footer{
+        background: $black;
+        background-color: $black;
+        // start of top-unsubscribe row
+        .top-unsubscribe{
+            .columns{
+                padding-top: 60px;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 0 !important;
+                p{
+                    color: $white;
+                    font-family: $main-font;
+                    font-size: 15px;
+                    margin-bottom: 0;
+                    padding-bottom: 4px;
+                    a{
+                        color: $white;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .left{
+                padding-right: 15px;
+            }
+            .right{
+                padding-left: 15px;
+            }
+            @include small(596px){
+                .right{
+                    padding-top: 10px;
+                }
+            }
+        }
+        // end of top-unsubscribe row
+
+        // start of divider row
+        .divider{
+            width: 85%;
+            margin: 40px auto;
+            .columns{
+                padding-top:  0 !important;
+                padding-left:  0 !important;
+                padding-right: 0 !important;
+                padding-bottom:  0 !important;
+                border-top: .5px solid $gray-text;
+            }
+        }
+        // end of divider row
+
+        // start of logo-copyrights row
+        .logo-copyrights{
+            .columns{
+                padding-top:  0 !important;
+                padding-left:  0 !important;
+                padding-right: 0 !important;
+                padding-bottom:  0 !important;
+                img{
+                    width: 175px;
+                }
+                span{
+                    color: $white;
+                    font-family: $main-font;
+                    font-size: 11px;
+                    font-style: italic;
+                    padding-top: 40px;
+                    padding-bottom: 30px;;
+                }
+            }
+        }
+        // end of logo-copyrights row
+
+        // start of btm-unsubscribe row
+        .btm-unsubscribe{
+            .columns{
+                padding-top:  10px;
+                padding-left:  40px;
+                padding-right: 40px;
+                padding-bottom:  0 !important;
+                p{
+                    color: $white;
+                    font-size: 11px;
+                    margin-bottom: 2px;
+                    a{
+                        color: $white;
+                        text-decoration: underline;
+                    }
+                }
+                img{
+                    padding-top: 20px;
+                    padding-bottom: 70px;
+                }
+            }
+        }
+        // end of btm-unsubscribe row
+
+    }
+    // end of footer-container styles...
+
+}
+
+// end of wrapper styles...
