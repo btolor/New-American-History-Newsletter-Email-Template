@@ -13,3 +13,12 @@ $headings: #3867ff;
 $history-text: #000022;
 
 Optimized Images:
+https://i.postimg.cc/nc6hKFmk/logo-featured.png-
+https://i.postimg.cc/NFKQTSfS/logo-hero.png-
+https://i.postimg.cc/5tm9M8R7/logo-overheard.png-
+https://i.postimg.cc/HLmWK6B8/logo-rest.png-
+https://i.postimg.cc/Njmfp37w/logo-white.png-
+https://i.postimg.cc/nzcFVC8H/mail-chimp.gif-
+https://i.postimg.cc/3NzYZ1kR/map.png-
+https://i.postimg.cc/hjySXcgV/top-texture.png-
+https://i.imgur.com/03sIKZE.png-

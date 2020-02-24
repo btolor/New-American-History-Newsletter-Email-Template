@@ -72,10 +72,14 @@
                     margin-bottom: 0;
                     line-height: 1.5;
                     padding-bottom: 30px;
+                    a{
+                        color: $text-links;
+                        text-decoration: underline;
+                    }
                 }
 
                 .last-p {
-                    padding-bottom: 0;
+                    padding-bottom: 15px;
                 }
             }
         }
@@ -148,7 +152,7 @@
                 padding-top: 50px;
                 padding-left: 0 !important;
                 padding-right: 0 !important;
-                padding-bottom: 36 px;
+                padding-bottom: 36px;
                 img{
                     width: 120px;
                     padding-bottom: 40px;
@@ -189,7 +193,7 @@
                 h2{
                     font-size: 32px;
                     font-weight: 600;
-                    margin-bottom: 0;
+                    margin-bottom: 2px;
                     color: $dark-text;
                     font-family: $main-font;
                     padding-top: 24px;
@@ -260,7 +264,7 @@
                 padding-top:0 !important;
                 padding-left: 40px;
                 padding-right: 0 !important;
-                padding-bottom: 0 !important;
+                padding-bottom: 10px;
                 a{
                     color: $btn-bg;
                     text-decoration: underline;
@@ -341,6 +345,11 @@
                     padding-top: 36px;
                     padding-bottom: 30px;
                 }
+                @include small(596px){
+                    h2{
+                        font-size: 18px !important;
+                    }
+                }
                 h6{
                     font-size: 18px;
                     font-family: $main-font;
@@ -399,7 +408,7 @@
             }
             @include small(596px){
                 .right{
-                    padding-top: 10px;
+                    padding-top: 10px !important;
                 }
             }
         }
@@ -458,8 +467,9 @@
                     }
                 }
                 img{
-                    padding-top: 20px;
+                    padding-top: 26px;
                     padding-bottom: 70px;
+                    margin: auto;
                 }
             }
         }
