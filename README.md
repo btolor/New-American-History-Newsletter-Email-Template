@@ -1,3 +1,5 @@
+# New-American-History-Newsletter-Email-Template
+New American History responsive newsletter email template...
 # Live Demo:
 https://btolor.github.io/New-American-History-Newsletter-Email-Template/.
 
